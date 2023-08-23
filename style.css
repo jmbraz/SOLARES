@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E2CE1A;
+    display: flex;
+    /*Eixo X */
+    justify-content: center;
+    /*Eixo Y */
+    align-items: center;
+
+}
+
+.left{
+    height: 555px;
+    width: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #36320A;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+}
+
+.left > h1{
+    color: #77FFC0;
+
+}
+
+img{
+    max-height: 60%;
+}
+
+.right{
+
+    height: 555px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FEFAA1;
+    border-radius: 0px 20PX 20PX 0;
+    padding: 20px;
+
+}
+
+
+
+
+.right > h1{
+    color: black;
+    font-weight: 800;
+
+}
+
+.right > h2{
+    color: black;
+    font-weight: 800;
+    font-size: 20.4px;
+
+}
+
+
+.card-r > h1,h2,h3,h4{
+    color: white;
+    font-weight: 800;
+
+}
+
+.card-r > h1{
+    color: white;
+    font-size: 26px;
+    
+
+}
+
+.card-r > h2{
+    color: white;
+    font-size: 16.5px;
+    padding: 7px;
+
+}
+
+.card-r{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+    
+}
+
+.card-r > a{
+    text-decoration: none;
+    
+    
+}
+
+
+
+.btn-login{
+    width: 55%;
+    padding: 16px 0px;
+    margin: 22px;
+    border: white 2px solid;
+    outline: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: #36320A;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(0, 0, 0, 0.349);
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: rgb(78, 73, 15);
+}
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FEFAA1;
+    color: #000000;
+    font-size: 14px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 15%);
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > i{
+    position: absolute;
+    margin-left:10px;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 38%);
+    padding: 20px;
+
+}
+
+input:focus{
+    border-color: rgba(0, 0, 0, 0.253);
+}
+
+.icon-bi{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn-register{
+    width: 69%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: black;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(0, 0, 0, 0.349);
+}
+
+.btn-register:hover{
+    transition: background 1s;
+    background: rgba(0, 0, 0, 0.753);
+}
+
+h1, label{
+    color: white;
+
+}
+
+
+
